@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
+  box-shadow: rgba(205, 3, 3, 0.29) 0px -2px 10px 0px;
   justify-content: space-between;
   align-items: center;
   padding: 0.5em 2em;
@@ -8,6 +8,10 @@
 
 .brand {
   font-size: 1.2em;
+}
+
+.brand span {
+  color: #7d1e34;
 }
 
 .brand span {
@@ -26,9 +30,13 @@
 
 .links_list li a {
   padding: 0.4em 0.6em;
+  color: #7d1e34;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .active {
-  background-color: #000;
-  color: #fff;
+  background-color: #a22d41;
+  color: #fff !important;
+  font-size: bold;
+  border-radius: 5px;
 }

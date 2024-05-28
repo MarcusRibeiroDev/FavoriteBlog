@@ -44,10 +44,16 @@ label {
   margin-bottom: 1em;
 }
 
+label:hover {
+  font-size: 1.1rem;
+  transition: 0.5s;
+}
+
 label span {
   margin-bottom: 0.3em;
   font-weight: bold;
   text-align: left;
+  color: #721c24;
 }
 
 input,
@@ -62,16 +68,17 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   color: #aaa;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .btn {
-  background-color: #1a8918;
+  background-color: #a22d41;
   color: #fff;
   text-align: center;
   cursor: pointer;
-  border-radius: 10px;
-  width: 120px;
+  width: 100%;
   font-weight: bold;
+  border-radius: 5px;
   border: none;
   padding: 10px 15px;
   font-size: 1em;
@@ -91,8 +98,9 @@ textarea::placeholder {
 }
 
 .btn:hover {
-  background-color: #0f730c;
+  background-color: #e04453;
   color: #fff;
+  transition: 0.5s;
 }
 
 .btn.btn-outline:hover {
