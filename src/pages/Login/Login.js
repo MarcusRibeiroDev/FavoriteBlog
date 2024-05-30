@@ -34,8 +34,7 @@ const Login = () => {
 
   return (
     <div className={styles.login}>
-      <h1>Entrar</h1>
-      <p>Faça o login para poder utilizar o sistema</p>
+      <p>Se já possui uma conta, entre por ela e partilhe seus sentimentos!</p>
       <form onSubmit={handleSubmit}>
         <label>
           <span>E-mail:</span>
