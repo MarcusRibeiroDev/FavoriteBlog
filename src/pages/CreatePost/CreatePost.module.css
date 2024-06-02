@@ -1,5 +1,9 @@
 .create_post {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .create_post h2 {
@@ -9,4 +13,7 @@
 .create_post p {
   color: #aaa;
   margin-bottom: 2em;
+  max-width: 80%;
+  word-wrap: break-word;
+  text-align: start;
 }

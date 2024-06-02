@@ -1,4 +1,7 @@
 .container {
-  min-height: 60vh;
-  margin-bottom: 5em;
+  min-height: 87vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

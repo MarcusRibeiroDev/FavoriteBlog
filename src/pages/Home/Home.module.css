@@ -6,6 +6,11 @@
   min-height: 75vh;
 }
 
+.home h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #7d1e34;
+}
+
 .search_form {
   max-width: 100%;
   width: 60%;
@@ -16,7 +21,6 @@
 
 .search_form input {
   margin-right: 10px;
-  width: 50%;
 }
 
 .noposts {

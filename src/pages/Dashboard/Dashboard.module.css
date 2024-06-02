@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .dashboard h2 {
@@ -14,6 +15,7 @@
 .dashboard p {
   color: #aaa;
   margin-bottom: 1em;
+  font-size: 0.8rem;
 }
 
 .noposts {
@@ -44,6 +46,7 @@
   border-bottom: 1px solid #eee;
   width: 80%;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 .post_row p {
